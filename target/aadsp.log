@@ -1,0 +1,6 @@
+08-02-2016 03:37:49,638; [main]; INFO ; org.springframework.web.servlet.DispatcherServlet;  - FrameworkServlet 'spring': initialization started
+08-02-2016 03:37:49,654; [main]; INFO ; org.springframework.web.context.support.XmlWebApplicationContext;  - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Feb 08 03:37:49 BRT 2016]; root of context hierarchy
+08-02-2016 03:37:49,689; [main]; INFO ; org.springframework.beans.factory.xml.XmlBeanDefinitionReader;  - Loading XML bean definitions from class path resource [ctx-web-application-context.xml]
+08-02-2016 03:37:50,004; [main]; INFO ; org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08-02-2016 03:37:50,116; [main]; INFO ; org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;  - Mapped "{[/hello/controller],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.aadsp.controller.HelloController.hello()
+08-02-2016 03:37:50,490; [main]; INFO ; org.springframework.web.servlet.DispatcherServlet;  - FrameworkServlet 'spring': initialization completed in 851 ms
