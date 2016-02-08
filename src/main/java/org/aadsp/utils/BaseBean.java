@@ -6,7 +6,6 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class BaseBean
 {
-	private static final long serialVersionUID = 201402181252L;
 
 	@Override
 	public String toString() {
