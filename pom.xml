@@ -85,6 +85,25 @@
 	</repositories>
 
 	<dependencies>
+		<!-- PRIMEFACES -->
+		<dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>5.0</version>
+        </dependency>
+        <!-- HIBERNATE CORE -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>4.3.4.Final</version>
+        </dependency>
+        <!-- JTDS CONEXAO PARA SQLSERVER -->
+        <dependency>
+            <groupId>net.sourceforge.jtds</groupId>
+            <artifactId>jtds</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        
 		<!-- JUNIT -->
 		<dependency>
 			<groupId>junit</groupId>
