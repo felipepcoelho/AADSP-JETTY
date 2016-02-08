@@ -76,21 +76,16 @@
 			<id>repo2</id>
 			<url>http://repo2.maven.org/maven2</url>
 		</repository>
-
-		<!-- PRIMEFACES REPOSITORY -->
-		<repository>
-			<id>primefaces</id>
-			<url>http://repository.primefaces.org/</url>
-		</repository>
+		
 	</repositories>
 
 	<dependencies>
 		<!-- PRIMEFACES -->
-		<dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>5.0</version>
-        </dependency>
+		<dependency>  
+		    <groupId>org.primefaces</groupId>  
+		    <artifactId>primefaces</artifactId>  
+		    <version>5.3</version>  
+		</dependency>  
         <!-- HIBERNATE CORE -->
         <dependency>
             <groupId>org.hibernate</groupId>
